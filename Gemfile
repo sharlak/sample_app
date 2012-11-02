@@ -21,6 +21,7 @@ group :test do
   gem 'webrat'
   gem 'rspec-rails'
   gem 'spork'
+  gem 'factory_girl_rails', '~> 1.1'
 end
 group :development do
   gem 'annotate'
