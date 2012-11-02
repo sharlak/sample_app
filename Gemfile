@@ -22,6 +22,9 @@ group :test do
   gem 'rspec-rails'
   gem 'spork'
 end
+group :development do
+  gem 'annotate'
+end
 
 gem 'json'
 
