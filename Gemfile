@@ -10,10 +10,12 @@ group :development, :test do
   gem 'sqlite3'
   gem 'autotest'
   gem 'rspec-rails'
+  gem 'gravatar_image_tag'
 end
 
 group :production do
   gem 'pg'
+  gem 'gravatar_image_tag'
 end
 
 group :test do
